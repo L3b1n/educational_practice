@@ -9,7 +9,7 @@ namespace ExceptionGuardClauses
         {
             if (int.TryParse($"{c}", NumberStyles.HexNumber, CultureInfo.InvariantCulture, out int result))
             {
-                return result;
+                return result; 
             }
 
             throw new ArgumentException("c is not a hex char.", nameof(c));
