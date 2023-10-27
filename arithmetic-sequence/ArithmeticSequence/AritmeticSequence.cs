@@ -19,7 +19,7 @@ namespace ArithmeticSequenceTask
 
             if (((number == int.MaxValue) && (add > 0)) || ((number == int.MinValue) && (add < 0)))
             {
-                throw new OverflowException();
+                throw new OverflowException(); 
             }
 
             if (count < 0)
